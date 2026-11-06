@@ -40,6 +40,9 @@ public files.
 Add `CITATION.cff` for citable tools, `NOTICE`/`THIRD-PARTY-NOTICES` where licensing requires it,
 and `TRADEMARKS.md` for integrations with third-party products.
 
+WordPress.org plugins keep `readme.txt` and `changelog.txt` as the changelog of record, because the
+plugin directory reads them; `CHANGELOG.md` is optional there.
+
 ## README structure
 
 1. Product name and one-sentence tagline.
@@ -65,7 +68,8 @@ research projects. Longer material goes to `docs/`.
   audience.
 - Topics: 8 to 20 lowercase kebab-case topics, always including `mikesoft`.
 - Homepage: the primary distribution surface (marketplace, package registry, product site).
-- Social preview: 1280×640 image when available.
+- Social preview: keep the GitHub default (account avatar plus repository name). Do not upload a
+  custom image.
 
 ## GitHub settings
 
