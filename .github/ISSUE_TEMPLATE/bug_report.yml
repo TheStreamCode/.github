@@ -1,0 +1,34 @@
+name: Bug report
+description: Report an incorrect or missing rule in the repository standard or community health files.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Which file or rule is wrong, and what does it currently say?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected content
+      description: What should it say instead, and which repository or platform behavior supports that?
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Which repositories or contributors are affected, and how.
+    validations:
+      required: true
+  - type: input
+    id: scope
+    attributes:
+      label: Affected file
+      placeholder: STANDARDS.md, CONTRIBUTING.md, SECURITY.md
+    validations:
+      required: true
